@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+
+header img {
+    height: 50px;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+
+.hero {
+   background: url('capa.png') no-repeat center center;
+    background-size: contain;  /* mostra a imagem inteira */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px; /* ajuste manual da altura */
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #222;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ol {
+    margin: 20px;
+    padding-left: 20px;
+}
+
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #0056b3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background: #003f80;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #f4f4f4;
+    border-top: 2px solid #ddd;
+    font-weight: bold;
+}
